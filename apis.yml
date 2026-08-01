@@ -1,7 +1,29 @@
 aid: roclub
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/roclub.png
 name: Roclub
-description: Roclub is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  roclub (roclub GmbH) is a German health-tech company operating a remote-control
+  platform for diagnostic medical imaging. Its software lets healthcare
+  organizations perform MRI and CT examinations remotely ("Remote Scanning") and
+  support on-site technicians from anywhere ("Remote Support"), with real-time
+  screen sharing and device control across multi-vendor scanners (Siemens,
+  Philips, GE, Canon). roclub also runs a marketplace of qualified medical
+  technologists ("rocStars") who can be booked on demand, together with session
+  documentation, scheduling, and built-in liability insurance ("roCover"). It was
+  surfaced as a portfolio company of Speedinvest and added to the API Evangelist
+  network. No public developer API, developer portal, or machine-readable API
+  documentation was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/roclub/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +33,30 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Health
+- Healthcare
+- Medical Imaging
+- Radiology
+- Teleradiology
+- MRI
+- CT
+- Remote Scanning
+- SaaS
+- Germany
 apis: []
+common:
+- type: Website
+  url: https://roclub.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
